@@ -1,0 +1,24 @@
+# Compiled programs
+bot
+main
+*.o
+*.a
+*.so
+
+# Secrets and tokens
+.env
+.env.*
+!.env.example
+secrets.h
+config.local.h
+
+# Build directories
+build/
+cmake-build-*/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs
+*.log
